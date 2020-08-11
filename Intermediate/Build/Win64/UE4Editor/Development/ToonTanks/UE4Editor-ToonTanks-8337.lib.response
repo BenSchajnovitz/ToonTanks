@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ToonTanks-8337.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnBase.cpp.obj"
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ToonTanks.cpp.obj"
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnBase.gen.cpp.obj"
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ToonTanks.init.gen.cpp.obj"
+"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Default.rc2.res"
+/OUT:"C:\Users\Ben\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-8337.lib"
+/INCLUDE:IMPLEMENT_MODULE_ToonTanks
