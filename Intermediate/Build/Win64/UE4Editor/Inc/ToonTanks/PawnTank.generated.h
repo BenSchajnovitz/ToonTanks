@@ -60,7 +60,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
 
 #define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(APawnTank, SpringArmComp); } \
-	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(APawnTank, CameraComp); }
+	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(APawnTank, CameraComp); } \
+	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(APawnTank, MoveSpeed); } \
+	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(APawnTank, RotateSpeed); }
 
 
 #define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_12_PROLOG

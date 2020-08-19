@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ToonTanks.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{60E05C79-ED54-4EFB-B9D3-E7D8E8D59813}</UniqueIdentifier>
+      <UniqueIdentifier>{7B63F48E-E8C0-4B25-A797-1D658BAF0823}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ToonTanksEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{007CF305-D1CD-462F-861B-832165B915A9}</UniqueIdentifier>
+      <UniqueIdentifier>{7C9802DA-7A00-4446-8284-FE05C249F994}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ToonTanks">
-      <UniqueIdentifier>{06FD400C-B8C9-416B-92BF-A627E99AD8B6}</UniqueIdentifier>
+      <UniqueIdentifier>{57CD636D-D146-4047-A39F-2B6DD1A9A9BD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks\ToonTanks.Build.cs">
       <Filter>Source\ToonTanks</Filter>
@@ -39,7 +40,7 @@
       <Filter>Source\ToonTanks</Filter>
     </ClInclude>
     <Filter Include="Source\ToonTanks\Pawns">
-      <UniqueIdentifier>{E51E9A14-E9F2-4DD4-A431-7AD831042492}</UniqueIdentifier>
+      <UniqueIdentifier>{75926572-FEDE-4E0C-B3CA-60185BEDB71C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnBase.cpp">
       <Filter>Source\ToonTanks\Pawns</Filter>
@@ -51,6 +52,12 @@
       <Filter>Source\ToonTanks\Pawns</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTank.h">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTurret.cpp">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTurret.h">
       <Filter>Source\ToonTanks\Pawns</Filter>
     </ClInclude>
   </ItemGroup>
