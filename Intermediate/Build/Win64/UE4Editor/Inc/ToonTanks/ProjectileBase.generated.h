@@ -75,7 +75,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectileBase); \
 	FORCEINLINE static uint32 __PPO__ProjectileMesh() { return STRUCT_OFFSET(AProjectileBase, ProjectileMesh); } \
 	FORCEINLINE static uint32 __PPO__DamageType() { return STRUCT_OFFSET(AProjectileBase, DamageType); } \
 	FORCEINLINE static uint32 __PPO__MovementSpeed() { return STRUCT_OFFSET(AProjectileBase, MovementSpeed); } \
-	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectileBase, Damage); }
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectileBase, Damage); } \
+	FORCEINLINE static uint32 __PPO__HitParticle() { return STRUCT_OFFSET(AProjectileBase, HitParticle); }
 
 
 #define ToonTanks_Source_ToonTanks_Actors_ProjectileBase_h_11_PROLOG
