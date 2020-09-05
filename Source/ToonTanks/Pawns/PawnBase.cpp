@@ -53,4 +53,7 @@ void APawnBase::Fire()
 void APawnBase::HandleDestruction()
 {
 	UGameplayStatics::SpawnEmitterAtLocation(this, DeathPartical, GetActorLocation()); // This method is checking null ref
+	UGameplayStatics::SpawnSoundAtLocation(this, DeathSound, GetActorLocation());
+	GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(DeathShake);
+
 }
